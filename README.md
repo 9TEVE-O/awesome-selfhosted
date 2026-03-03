@@ -10,6 +10,14 @@ This is a list of [Free](https://en.wikipedia.org/wiki/Free_software) Software [
 
 See [Contributing](#contributing).
 
+## Analyzer
+
+This fork includes [`analyzer.py`](analyzer.py), a Python script that parses this list and reports statistics on the entries (counts by category, license, and programming language).
+
+```
+python3 analyzer.py [--file README.md]
+```
+
 --------------------
 
 ## Table of contents
